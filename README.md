@@ -1,3 +1,5 @@
 This is the code Repo for project "MuTriM: an end-to-end deep learning model integrating features of DCE-MRI and histomorphology for progression-free survival prediction in breast cancer"
 
 Model checkpoint provided, for end to end fusion of DCE-MRI features with histopathology features from WSI for outcome prediction.
+
+For PyRadiomic feature extraction, First, install the PyRadiomics package and ensure the MRI images and corresponding tumor masks are stored in .nrrd format under the specified directory. Adjust the "data_path" variable to the folder containing the patient subdirectories with image and mask files. Finally the extracted features will be saved into the output file Tumor_feature.txt.
